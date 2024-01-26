@@ -8,9 +8,9 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.15" />
-	  <PackageReference Include="Piral.Blazor.DevServer" Version="7.0.11" />
-	  <PackageReference Include="Piral.Blazor.Tools" Version="7.0.11" />
-	  <PackageReference Include="Piral.Blazor.Utils" Version="7.0.11" />
+	  <PackageReference Include="Piral.Blazor.DevServer" Version="7.0.12-pre.20240126.5" />
+	  <PackageReference Include="Piral.Blazor.Tools" Version="7.0.12-pre.20240126.5" />
+	  <PackageReference Include="Piral.Blazor.Utils" Version="7.0.12-pre.20240126.5" />
   </ItemGroup>
 
 </Project>
