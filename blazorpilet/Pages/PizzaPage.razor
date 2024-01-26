@@ -1,0 +1,13 @@
+﻿@page "/pizzas/{PizzaId}"
+@using Piral.Blazor.Utils
+
+<h1>Pizza @PizzaId</h1>
+<p>Eat  delicious pizza @PizzaId</p>
+<br />
+<NavLink Href="/pizzas">back to overview</NavLink>
+
+@code{
+    [PiralRouteParameter]
+    [Parameter, EditorRequired]
+    public string PizzaId { get; set; } = default!;
+}
